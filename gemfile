@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "sinatra", "~>1.4.7"
+gem "sinatra-contrib"
+gem 'rack-test'
+# Apparently rack-test isn't built in with Sinatra so we need to add it to our
+# gemfile, eventhough my tests ran without issues before I included it here.
